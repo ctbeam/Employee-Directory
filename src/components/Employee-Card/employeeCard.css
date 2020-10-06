@@ -1,0 +1,13 @@
+.card {
+  margin-top: 4rem;
+  padding: 1rem;
+  width: 18rem;
+  height: 44rem;
+  display: flex;
+  white-space: normal;
+  background-color: lightblue;
+}
+
+li {
+  list-style: none;
+}

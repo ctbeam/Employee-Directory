@@ -1,0 +1,28 @@
+.jumbotron {
+  margin-top: 1rem;
+  background-color: lightpink;
+}
+
+button {
+  background-color: gray;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+#search {
+  margin: auto;
+}
+
+#searchBtn {
+  margin: auto;
+}
+
+#searchRow {
+  margin-top: 2rem;
+}
+
+.display-4 {
+  padding: 2rem;
+}
