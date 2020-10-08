@@ -11,20 +11,20 @@ function EmployeeCard(props) {
             <li>
               <p>
                 {" "}
-                Name: {props.firstName} {props.lastName}
+                {props.firstName} {props.lastName}
               </p>
             </li>
             <li>
-              <p> Email: {props.email}</p>
+              <p> {props.email}</p>
             </li>
             <li>
-              <p> Phone Number: {props.phone}</p>
+              <p> {props.phone}</p>
             </li>
             <li>
               <p>
                 {" "}
-                Address: {props.address.number} {props.address.name},{" "}
-                {props.city}, {props.state} {props.country}
+                {props.address.number} {props.address.name}, {props.city},{" "}
+                {props.state} {props.country}
               </p>
             </li>
             <li>
